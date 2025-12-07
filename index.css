@@ -98,10 +98,6 @@ h3::after {
   border-radius: 2px;
 }
 
-#projects {
-  background-color: #b7dafb !important;
-  background-image: none !important;
-}
 .card-img-top {
   width: 90%;
   height: 150px;
@@ -180,3 +176,4 @@ h3::after {
     width: 100%;
   }
 }
+
