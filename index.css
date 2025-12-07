@@ -2,7 +2,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #b7dafb;
   color: #333;
-  overflow-x: hidden; /* Mencegah geser ke samping di HP */
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -20,11 +20,11 @@ section h3 {
 }
 
 .navbar-nav .nav-link:hover {
-  color: #225aff !important; /* menjadi hijau*/
+  color: #225aff !important;
   font-weight: 700;
   transform: translateY(-2px);
 }
-/* Override warna biru bootstrap jadi biru tua*/
+
 .bg-primary {
   background-color: #253480 !important;
 }
@@ -60,7 +60,7 @@ img {
 /* Judul Nama */
 h2 {
   font-weight: 700;
-  font-size: 3rem; /* Besar di laptop */
+  font-size: 3rem;
   margin-bottom: 10px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -176,4 +176,5 @@ h3::after {
     width: 100%;
   }
 }
+
 
